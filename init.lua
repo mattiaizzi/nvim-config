@@ -1,12 +1,3 @@
-vim.cmd("language en_US")
-vim.cmd("set expandtab")
-vim.cmd("set tabstop=2")
-vim.cmd("set softtabstop=2")
-vim.cmd("set shiftwidth=2")
-
+require("config.options")
 require("config.lazy")
 
-require("lazy").setup("plugins")
-
--- load colorscheme
-vim.cmd.colorscheme "catppuccin-frappe"
