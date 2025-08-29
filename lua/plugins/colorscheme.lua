@@ -1,6 +1,4 @@
-return {
-	-- add catpuccini
-	{ 
+return { 
 		"catppuccin/nvim",
 		name = "catppuccin",
 		lazy = "false",
@@ -8,5 +6,4 @@ return {
 		config = function()
 			vim.cmd.colorscheme "catppuccin-frappe"
 		end
-	}
 }
